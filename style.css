@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+}
+.main_container {
+  display: flex;
+  flex-direction: row;
+  -border: 1px solid #ff0000;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-image: url("/home/filip/repos/sign-up_form/assets/photo-1585202900225-6d3ac20a6962.avif");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.right {
+  display: flex;
+  flex-grow: 2;
+  background-color: antiquewhite;
+}
+
+@font-face {
+  font-family: odin_font;
+  src: url(/home/filip/repos/sign-up_form/fonts/Norse-Bold.otf);
+}
+
+.strip {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-top: 150px;
+  height: calc(40px + 5vw);
+  align-items: center;
+}
+.logo img {
+  height: calc(35px + 5vw);
+  opacity: 1;
+}
+.logo_text {
+  font-family: odin_font;
+  font-size: calc(35px + 5vw);
+  color: white;
+}
+.reference {
+  color: white;
+  position: absolute;
+  bottom: 10px; /* Adjust the distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration-color: white;
+  font-size: calc(12px);
+}
+.reference a {
+  color: white;
+}
