@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
 .main_container {
   display: flex;
@@ -25,7 +26,7 @@
   flex: 2;
   display: flex;
   flex-direction: column;
-  background-color: antiquewhite;
+  background-color: #f9fafb;
 }
 
 @font-face {
@@ -71,13 +72,102 @@
   -border: 1px solid #ff0000;
   background-color: #f9fafb;
   padding: 100px 0 0 46px;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 18px;
 }
 .second-par {
   margin-top: 16px;
 }
-form {
+.form-row {
   padding-left: 46px;
-  padding-top: 16px;
+  padding-top: 32px;
   background-color: #ffffff;
+}
+form {
+  padding: 16px 0 16px;
+}
+
+.create-btn {
+  padding-left: 46px;
+  padding-top: 32px;
+}
+
+button {
+  background-color: #596d48;
+  color: white;
+  -width: 150px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 10px 40px;
+}
+
+.log-in {
+  padding-left: 46px;
+  padding-top: 32px;
+  font-size: 16px;
+}
+.log-in a {
+  color: #596d48;
+  font-weight: 400;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+div label {
+  text-transform: capitalize;
+}
+
+.log-in_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-row {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 32px;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  flex: 0 0 calc(50% - 10px); /* Two inputs per row with spacing in between */
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column; /* Display label above input */
+  max-width: 250px;
+}
+
+label {
+  margin-bottom: 0; /* Add spacing between label and input */
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+input {
+  width: 250px; /* Make all inputs the same width */
+  padding: 5px; /* Add some padding for spacing */
+  border: 1px solid #e5e7eb;
+  border-radius: 3px;
+  outline: none;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .input-row {
+    flex-direction: column; /* One input per row on small screens */
+  }
+
+  .form-input {
+    flex: 0 0 100%; /* One input per row on small screens */
+    margin-right: 0;
+  }
+}
+
+input:focus {
+  border-color: rgb(27, 117, 242);
+  box-shadow: 0 0 5px rgba(7, 8, 8, 0.7);
 }

@@ -28,12 +28,83 @@
           <div class="second-line">Sing up <i>know</i> you want to.</div>
           <div class="second-par">You <i>know</i> you want to.</div>
         </div>
-        <form action="">
+
+        <div class="form-row">
           <h3>Let's do this!</h3>
-        </form>
-        <button></button>
-        <div class="log-in"></div>
+
+          <form action="" class="log-in_form">
+            <div class="input-row">
+              <div class="form-input">
+                <label for="name">FIRST NAME</label>
+                <input
+                  type="text"
+                  id="name"
+                  value=""
+                  pattern="^[^0-9]+$"
+                  size="30"
+                  maxlength="245"
+                  required
+                />
+              </div>
+
+              <div class="form-input">
+                <label for="surname">LAST NAME</label>
+                <input
+                  type="text"
+                  id="surname"
+                  value=""
+                  pattern="^[^0-9]+$"
+                  size="30"
+                  maxlength="245"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="input-row">
+              <div class="form-input">
+                <label for="email">EMAIL</label>
+                <input
+                  type="email"
+                  id="email"
+                  value=""
+                  size="30"
+                  maxlength="245"
+                  required
+                />
+              </div>
+
+              <div class="form-input">
+                <label for="phone">PHONE NUMBER</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  value=""
+                  size="30"
+                  maxlength="245"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="input-row">
+              <div class="form-input">
+                <label for="pass">PASSWORD</label>
+                <input type="password" id="pass" />
+              </div>
+
+              <div class="form-input">
+                <label for="pass2">CONFIRM PASSWORD</label>
+                <input type="password" id="pass2" />
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="create-btn"><button>Create Account</button></div>
+        <div class="log-in">Already have an account? <a href="">Log in</a></div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
