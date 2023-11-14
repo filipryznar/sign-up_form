@@ -78,10 +78,16 @@
 .second-par {
   margin-top: 16px;
 }
-.form-row {
-  padding-left: 46px;
-  padding-top: 32px;
+.form-h3 {
+  padding-bottom: 16px;
+}
+.form-h3,
+.main-form {
+  padding: 16px 0px 16px 46px;
   background-color: #ffffff;
+}
+.main-form {
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
 }
 form {
   padding: 16px 0 16px;
@@ -152,7 +158,6 @@ input {
   padding: 5px; /* Add some padding for spacing */
   border: 1px solid #e5e7eb;
   border-radius: 3px;
-  outline: none;
 }
 
 /* Media query for smaller screens */
@@ -168,6 +173,7 @@ input {
 }
 
 input:focus {
+  outline: none;
   border-color: rgb(27, 117, 242);
   box-shadow: 0 0 5px rgba(7, 8, 8, 0.7);
 }

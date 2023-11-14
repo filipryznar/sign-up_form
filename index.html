@@ -29,79 +29,81 @@
           <div class="second-par">You <i>know</i> you want to.</div>
         </div>
 
-        <div class="form-row">
-          <h3>Let's do this!</h3>
-
-          <form action="" class="log-in_form">
-            <div class="input-row">
-              <div class="form-input">
-                <label for="name">FIRST NAME</label>
-                <input
-                  type="text"
-                  id="name"
-                  value=""
-                  pattern="^[^0-9]+$"
-                  size="30"
-                  maxlength="245"
-                  required
-                />
+        <div>
+          <div class="form-row">
+            <form action="" class="log-in_form">
+              <h3 class="form-h3">Let's do this!</h3>
+              <div class="main-form">
+                <div class="input-row">
+                  <div class="form-input">
+                    <label for="name">FIRST NAME</label>
+                    <input
+                      type="text"
+                      id="name"
+                      value=""
+                      pattern="^[^0-9]+$"
+                      size="30"
+                      maxlength="245"
+                      required
+                    />
+                  </div>
+                  <div class="form-input">
+                    <label for="surname">LAST NAME</label>
+                    <input
+                      type="text"
+                      id="surname"
+                      value=""
+                      pattern="^[^0-9]+$"
+                      size="30"
+                      maxlength="245"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="input-row">
+                  <div class="form-input">
+                    <label for="email">EMAIL</label>
+                    <input
+                      type="email"
+                      id="email"
+                      value=""
+                      size="30"
+                      maxlength="245"
+                      required
+                    />
+                  </div>
+                  <div class="form-input">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      value=""
+                      size="30"
+                      maxlength="245"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="input-row">
+                  <div class="form-input">
+                    <label for="pass">PASSWORD</label>
+                    <input type="password" id="pass" />
+                  </div>
+                  <div class="form-input">
+                    <label for="pass2">CONFIRM PASSWORD</label>
+                    <input type="password" id="pass2" />
+                  </div>
+                </div>
               </div>
-
-              <div class="form-input">
-                <label for="surname">LAST NAME</label>
-                <input
-                  type="text"
-                  id="surname"
-                  value=""
-                  pattern="^[^0-9]+$"
-                  size="30"
-                  maxlength="245"
-                  required
-                />
+              <div class="create-btn">
+                <button type="submit" id="create-account">
+                  Create Account
+                </button>
               </div>
-            </div>
-
-            <div class="input-row">
-              <div class="form-input">
-                <label for="email">EMAIL</label>
-                <input
-                  type="email"
-                  id="email"
-                  value=""
-                  size="30"
-                  maxlength="245"
-                  required
-                />
-              </div>
-
-              <div class="form-input">
-                <label for="phone">PHONE NUMBER</label>
-                <input
-                  type="tel"
-                  id="phone"
-                  value=""
-                  size="30"
-                  maxlength="245"
-                  required
-                />
-              </div>
-            </div>
-
-            <div class="input-row">
-              <div class="form-input">
-                <label for="pass">PASSWORD</label>
-                <input type="password" id="pass" />
-              </div>
-
-              <div class="form-input">
-                <label for="pass2">CONFIRM PASSWORD</label>
-                <input type="password" id="pass2" />
-              </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
 
-        <div class="create-btn"><button>Create Account</button></div>
         <div class="log-in">Already have an account? <a href="">Log in</a></div>
       </div>
     </div>
