@@ -177,3 +177,14 @@ input:focus {
   border-color: rgb(27, 117, 242);
   box-shadow: 0 0 5px rgba(7, 8, 8, 0.7);
 }
+
+.error {
+  outline: none;
+  border-color: rgb(255, 0, 0);
+  box-shadow: 0 0 5px rgba(7, 8, 8, 0.7);
+}
+
+.error-msg {
+  color: red;
+  font-size: 0.7rem;
+}
