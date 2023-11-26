@@ -31,7 +31,7 @@
 
 @font-face {
   font-family: odin_font;
-  src: url(fonts/Norse-Bold.otf);
+  src: url("fonts/Norse-Bold.otf");
 }
 
 .strip {
