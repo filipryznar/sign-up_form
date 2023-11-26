@@ -17,7 +17,7 @@
   flex-direction: column;
   flex: 1;
 
-  background-image: url("/home/filip/repos/sign-up_form/assets/photo-1585202900225-6d3ac20a6962.avif");
+  background-image: url("assets/photo-1585202900225-6d3ac20a6962.avif");
   background-size: cover;
   height: 100vh;
   position: relative;
